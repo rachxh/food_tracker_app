@@ -1,0 +1,17 @@
+{
+  "name": "food-tracker",
+  "source": "src/index.html",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.3.2"
+  },
+  "dependencies": {
+    "@skalwar/simple_number_formatter": "^1.0.1",
+    "chart.js": "^3.7.1",
+    "snackbar": "^1.1.0"
+  }
+}
